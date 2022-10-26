@@ -1,3 +1,5 @@
+import _ from 'env'
+
 var search = document.getElementById("search-button");
 var city   = document.getElementById("search-input");
 
