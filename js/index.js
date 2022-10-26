@@ -1,5 +1,3 @@
-const apikey = '3tVjv9IjcyeCBFr2pvEiIgmj19mAAqjF';
-
 var search = document.getElementById("search-button");
 var city   = document.getElementById("search-input");
 
