@@ -7,7 +7,7 @@ var city   = document.getElementById("search-input");
 
 
 
-search.onclick = function () {
+search.onclick = (city, apikey) => {
     city = city.value;
     fetch(`http://dataservice.accuweather.com/locations/v1/cities/search?apikey=${apikey}&q=${city}`)
         .then((response) => response.json())
