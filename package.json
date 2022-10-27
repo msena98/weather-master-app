@@ -1,0 +1,23 @@
+{
+  "name": "weather-master-app",
+  "version": "1.0.0",
+  "description": "Estou seguindo as diretrizes do repositório:\r https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Weather-App.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msena98/weather-master-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msena98/weather-master-app/issues"
+  },
+  "homepage": "https://github.com/msena98/weather-master-app#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
