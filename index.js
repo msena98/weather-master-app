@@ -8,8 +8,8 @@ var city   = document.getElementById("search-input");
 
 
 search.onclick = function () {
-    city   = city.value;
-    fetch('http://dataservice.accuweather.com/locations/v1/cities/search?apikey=' + apikey + '&q=' + city)
+    city = city.value;
+    fetch(`http://dataservice.accuweather.com/locations/v1/cities/search?apikey=${apikey}&q=${city}`)
         .then((response) => response.json())
         .then((data) => console.log(data));
 };
